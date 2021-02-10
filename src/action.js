@@ -60,7 +60,7 @@ async function getMilestone () {
       cmds.push('echo ::set-output name=' + key + '::' + value);
     }
 
-    let setOutputsCmd = cmds.join(' \n');
+    let setOutputsCmd = cmds.join('\n');
 
     exec(setOutputsCmd, (err, stdout, stderr) => {
       console.log(`${stdout}`)
