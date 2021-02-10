@@ -20,9 +20,9 @@ Create a workflow .yml file in your .github/workflows directory. An example work
 
 ## Inputs
 
-`repository`: Github repository. Add the Github context value: `github.repository`. (**required**)
+`repository`: Github repository. (xxx/sssss)
 
-`milestone`: Milestone id, not title please. (**required**)
+`milestone`: Milestone id (**required**)
 
 ## Outputs
 
