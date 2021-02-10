@@ -41,9 +41,12 @@ Create a workflow .yml file in your .github/workflows directory. An example work
     repository: ${{ github.repository }}
     milestone: 1
 
-- name: Debug milestone title value
-  run: echo "Title: ${{ steps.create-milestone.outputs.title }}"
-  run: echo "Description: ${{ steps.create-milestone.outputs.description }}"
-  run: echo "Field1: ${{ steps.create-milestone.outputs.Field1 }}"
-  run: echo "Field2: ${{ steps.create-milestone.outputs.Field2 }}"
+- name: Debug milestone 1
+  run: echo ${{ steps.milestone.outputs.title }}
+- name: Debug milestone 2       
+  run: echo ${{ steps.milestone.outputs.description }}
+- name: Debug milestone 3
+  run: echo ${{ steps.milestone.outputs.Field1 }}
+- name: Debug milestone 4       
+  run: echo ${{ steps.milestone.outputs.Field2 }}
 ```
