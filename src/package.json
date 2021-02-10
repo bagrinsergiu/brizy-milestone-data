@@ -1,0 +1,23 @@
+{
+  "name": "brizy-milestone-data",
+  "version": "1.0.0",
+  "description": "A GitHub Action to extract milestone data",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bagrinsergiu/brizy-milestone-data.git"
+  },
+  "author": "alecszaharia@gmail.com",
+  "bugs": {
+    "url": "https://github.com/bagrinsergiu/brizy-milestone-data/issues"
+  },
+  "dependencies": {
+    "await-exec": "^0.1.2",
+    "axios": "^0.19.2",
+    "loglevel": "^1.6.1",
+    "moment": "^2.24.0",
+    "request-promise": "^4.2.4"
+  },
+  "devDependencies": {
+    "standard": "^12.0.1"
+  }
+}

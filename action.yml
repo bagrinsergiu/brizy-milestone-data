@@ -1,0 +1,12 @@
+name: 'Brizy Milestone Data Action'
+description: 'Extract milestone data.'
+branding:
+  icon: 'flag'
+  color: 'yellow'
+inputs:
+  ID:
+    description: 'The milestone id(Integer).'
+    required: true
+runs:
+  using: 'docker'
+  image: 'Dockerfile'
