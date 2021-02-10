@@ -33,7 +33,7 @@ Create a workflow .yml file in your .github/workflows directory. An example work
 
 ```yaml
 - name: Get milestone data
-  uses: bagrinsergiu/brizy-milestone-data@main
+  uses: bagrinsergiu/brizy-milestone-data@master
   id: milestone
   env:
     GITHUB_TOKEN: ${{ github.token }}
